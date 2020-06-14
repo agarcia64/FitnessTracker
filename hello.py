@@ -17,3 +17,7 @@ def dan_home():
 @app.route('/alfredo')
 def alfredo():
     return render_template("index.html", name="alfredo")
+
+@app.route('/jp')
+def alfredo():
+    return render_template("index.html", name="jp")
