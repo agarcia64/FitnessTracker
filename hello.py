@@ -10,6 +10,12 @@ mongo = PyMongo(app)
 def home_page():
     return render_template("index.html", name="alfredo")
 
+<<<<<<< HEAD
 @app.route('/Dan')
 def dan_home():
     return render_template("index.html", name="dan")
+=======
+@app.route('/alfredo')
+def alfredo():
+    return render_template("index.html", name="alfredo")
+>>>>>>> be0ef14b7de187cecadcf3d132850d874a6c3896
